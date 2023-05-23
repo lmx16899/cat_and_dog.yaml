@@ -1,0 +1,10 @@
+# 設定圖檔路徑
+path: C:/Users/lmx16/Desktop/V1/data1  # 資料根目錄
+train: images  # 訓練用資料集（相對於 path）
+val: images  # 驗證用資料集（相對於 path）
+
+# 物件類別設定
+nc: 5          # 類別數量
+names: ['anger','happy','neutral','sadness','surprise']  # 類別名稱
+
+
